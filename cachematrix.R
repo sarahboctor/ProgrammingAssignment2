@@ -2,7 +2,6 @@
 
 ## this step constructs the process for creating and getting the inverse matrix
 
-
 makeCacheMatrix <- function(x = matrix()) {
   mat <- NULL
   set <- function(y) {
@@ -16,8 +15,6 @@ makeCacheMatrix <- function(x = matrix()) {
        setinverse = setinverse,
        getinverse = getinverse)
 }
-
-
 
 ## this step checks to see if th inverse matrix was saved already, if not it caches the inverse 
 cacheSolve <- function(x, ...) {
